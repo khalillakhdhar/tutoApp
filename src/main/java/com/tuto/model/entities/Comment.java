@@ -22,6 +22,5 @@ public class Comment extends BaseEntity {
 private String content;
 @ManyToOne(optional = false,cascade = CascadeType.ALL)
 private Tutorial tutorial;
-@ManyToOne(optional = false,cascade = CascadeType.ALL)
-private User user;
+
 }
